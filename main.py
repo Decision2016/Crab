@@ -13,12 +13,7 @@ def application(environ, start_response):
     base64code = request_body["base64code"]
     array = request_body["array"]
 
-    res_photo = photoCut.photoCut(array, base64code)
-
-    dic = {
-        'errMsg': 'successful',
-        'resPhoto': res_photo
-    }
+    dic = photoCut.photoCut(array, base64code)
 
     return [json.dumps(dic).encode('utf-8')]
 
