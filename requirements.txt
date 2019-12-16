@@ -1,3 +1,13 @@
+cffi==1.13.2
+cheroot==8.2.1
+gevent==1.4.0
+greenlet==0.4.15
+jaraco.functools==2.0
+Markdown==3.1.1
+more-itertools==8.0.0
 numpy==1.17.4
 opencv-python==4.1.2.30
+pycparser==2.19
+six==1.13.0
+web.py==0.40
 wsgilog==0.3.1

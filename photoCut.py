@@ -2,6 +2,7 @@ import cv2
 import base64
 import numpy as np
 
+
 def base2opencv(base64_code):
     img_data = base64.b64decode(base64_code.encode())
     img_array = np.fromstring(img_data, np.uint8)
@@ -15,7 +16,6 @@ def checkcutcur(height, width, x1, x2, y1, y2):
     if(x2 > width or y2 > height):
         return False
     return True
-
 
 
 def photocut(jsonData, base64Code):

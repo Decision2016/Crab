@@ -5,7 +5,7 @@
 
 main.py中port可修改为自己想要使用的端口
 
-当前版本为无https协议的版本
+添加了https协议认证，修改keyfile与certfile为证书文件路径即可
 
 # 传入参数
 传入方式为POST请求
