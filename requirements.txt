@@ -5,7 +5,7 @@ greenlet==0.4.15
 jaraco.functools==2.0
 Markdown==3.1.1
 more-itertools==8.0.0
-numpy==1.17.4
+numpy==1.22.0
 opencv-python==4.1.2.30
 pycparser==2.19
 six==1.13.0
